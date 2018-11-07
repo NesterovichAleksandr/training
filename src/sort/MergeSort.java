@@ -11,7 +11,14 @@ public class MergeSort {
             array[i] = (int) (Math.random() * 100);
         }
         System.out.println(Arrays.toString(array));
-        System.out.println(Arrays.toString(mergeSort(array)));
+        int[] resultArray = mergeSort(array);
+        System.out.println(Arrays.toString(resultArray));
+
+        for (int i = 0; i < resultArray.length - 1; i++) {
+            if (resultArray[i] > resultArray[i + 1]) {
+                System.out.println("Error in resultArray: " + resultArray[i] + " < " + resultArray[i + 1]);
+            }
+        }
     }
 
     private static int[] mergeSort(int[] array) {
