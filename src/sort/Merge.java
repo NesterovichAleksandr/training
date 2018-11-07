@@ -10,7 +10,7 @@ public class Merge {
         System.out.println(Arrays.toString(merge(array1, array2)));
     }
 
-    private static int[] merge(int[] array1, int[] array2) {
+    static int[] merge(int[] array1, int[] array2) {
         int[] arrayResult = new int[array1.length + array2.length];
         int indexArray1 = 0;
         int indexArray2 = 0;
