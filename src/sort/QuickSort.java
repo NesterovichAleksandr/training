@@ -41,7 +41,8 @@ public class QuickSort {
                 array[rightIndex] = temp;
                 if (leftIndex == middle) {
                     middle = rightIndex;
-                } else if (rightIndex == middle) {
+                }
+                if (rightIndex == middle) {
                     middle = leftIndex;
                 }
             }
