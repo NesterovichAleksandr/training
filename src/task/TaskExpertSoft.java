@@ -2,7 +2,7 @@ package task;
 
 import java.util.ArrayList;
 
-public class Merge {
+public class TaskExpertSoft {
 
     public static void main(String[] args) {
         ArrayList<Integer> a = new ArrayList<>();
