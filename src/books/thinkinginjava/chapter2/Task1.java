@@ -1,4 +1,4 @@
-package books.philosophyjava.chapter2;
+package books.thinkinginjava.chapter2;
 
 public class Task1 {
 
